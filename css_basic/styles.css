@@ -1,25 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="base.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Your Title</title>
+    <style>
+        
+        body.works_on_smartphone
+{
+            display: flex;
+            flex-direction: column;
+        }
+
+        <main> 
+{
+            display: flex;
+            flex-direction: row;
+            flex: auto; 
+        }
+
+        <article> 
+{
+            flex: 2; 
+            overflow-y: auto; 
+        }
+
+        <aside> 
+{
+            flex: 1; 
+            overflow-y: auto; 
+        }
+    </style>
+</head>
 <body class="works_on_smartphone">
-{
-    display: flex;
-    flex-direction: column;
-}
-
-<main>
-{
-    display: flex;
-    flex-direction: row;
-    flex: auto; 
-}
-
-<article>
-{
-    flex: 2; /* 
-    overflow-y: auto; 
-}
-
-<aside>
-{
-    flex: 1; 
-    overflow-y: auto; 
-}
+    <header>
+        <h1>Your Header</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Your Article Content</h2>
+            <p>This is where the article text goes.</p>
+        </article>
+        <aside>
+            <p>This is the aside content.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Your Footer</p>
+    </footer>
 </body>
+</html>
