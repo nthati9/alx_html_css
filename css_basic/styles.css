@@ -7,28 +7,24 @@
     <link href="styles.css" rel="stylesheet">
     <title>Your Title</title>
     <style>
-        
-        body.works_on_smartphone
-{
+        /* CSS styles should go here if not in an external stylesheet */
+        body.works_on_smartphone {
             display: flex;
             flex-direction: column;
         }
 
-        <main> 
-{
+        main {
             display: flex;
             flex-direction: row;
             flex: auto; 
         }
 
-        <article> 
-{
+        article {
             flex: 2; 
             overflow-y: auto; 
         }
 
-        <aside> 
-{
+        aside {
             flex: 1; 
             overflow-y: auto; 
         }
@@ -36,18 +32,22 @@
 </head>
 <body class="works_on_smartphone">
     <header>
-        <h1>Your Header</h1>
+        <h1>The Brown Bear</h1>
     </header>
     <main>
         <article>
-            <h2>Your Article Content</h2>
-            <p>This is where the article text goes.</p>
+            <h2>The White Bear</h2>
+            <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently Least Concern.=There are many subspecies within the brown bear species, including the
+      Atlas bear and the Himalayan brown bear.</p>
         </article>
         <aside>
-            <p>This is the aside content.</p>
+            <p>The polar bear (Ursus maritimus) is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore, with adult males weighing 300–800 kg (660–1,760 lb).</p>
         </aside>
     </main>
-    <footer>
+    <footer>	
+<p>Made by Onthatile-<a href="https://github.com/nthati9/My_First_Portfolio/edit/main/html_basic/index.html"></a></p>
+<img src="https://en.wikipedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg"./>
+<a href="https://github.com/nthati9/My_First_Portfolio/blob/50b2a7634c7e382554f3e654a6a2fc0b2d85f173/html_basic/tweets.html">This is a link to Tweet</a>
         <p>Your Footer</p>
     </footer>
 </body>
