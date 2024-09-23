@@ -5,8 +5,11 @@ body {
 }
 
 header {
-    background-color: #f0f0f0;
-    padding: 20px;
+    background-color: #ffffff; 
+    padding: 20px 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav img {
@@ -16,16 +19,52 @@ nav img {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin-left: 30px; 
 }
 
-h1, h2, h3, h4 {
-    color: #333; 
+nav ul li a {
+    text-decoration: none;
+    color: #333333; 
+    font-weight: bold; 
 }
 
+main > section:first-of-type {
+    background-color: #f0f0f0; 
+    padding: 60px 40px; 
+    text-align: center;
+}
+
+main > section:first-of-type h1 {
+    font-size: 48px; 
+    color: #333333; 
+}
+
+main > section:first-of-type span {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 24px; 
+    color: #555555; 
+}
+
+main > section:first-of-type .button {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px; 
+    margin-top: 20px;
+    text-decoration: none; 
+}
+
+main > section:first-of-type .button:hover {
+    background-color: #0056b3; 
+}
 
 
